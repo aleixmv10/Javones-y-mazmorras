@@ -16,5 +16,12 @@ public class mago extends personajes {
             System.out.println("No hay suficiente maná.");
         }
     }
-	
+	public void recargarMana(int cantidad) {
+        mana = mana + cantidad;
+    }
+
+    public int getMana() {
+        return mana;
+    }
 }
+
