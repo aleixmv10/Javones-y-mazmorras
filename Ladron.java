@@ -15,11 +15,9 @@ public class Ladron extands personajes{
             System.out.println(getNombre() + " roba y es descubierto");
         }
     }
-
-
-
-
-
+    public void hacerseInvisible() {
+        invisible = true;
+    }
 
 
 }
