@@ -8,7 +8,13 @@ public class Ladron extands personajes{
         super(nombre, nivel, vida);
         invisible = false;
     }
-    
+    public void robar() {
+        if (invisible) {
+            System.out.println(getNombre() + " roba sin ser visto");
+        } else {
+            System.out.println(getNombre() + " roba y es descubierto");
+        }
+    }
 
 
 
