@@ -19,5 +19,5 @@ public class guerrero extends personajes {
             protegido = null;
         }
     }
-
+    
 }
