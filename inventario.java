@@ -17,5 +17,13 @@ public class inventario {
             System.out.println("El inventario está lleno.");
         }
     }
+    public void mostrarInventario() {
+        if (cantidad == 0) {
+            System.out.println("El inventario está vacío.");
+        }
 
+        for (int i = 0; i < cantidad; i++) {
+            System.out.println(lista[i].getNombre() + " - " + lista[i].getTipo());
+        }
+    }
 }
